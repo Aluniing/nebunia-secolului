@@ -63,6 +63,10 @@ a {
     font-weight: 700;
 }
 
+.hero .title {
+    color: #6A60FF;
+}
+
 .hero-menu {
     display: flex;
     justify-content: center;

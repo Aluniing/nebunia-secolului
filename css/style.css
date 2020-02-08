@@ -91,7 +91,7 @@ a {
     margin-left: 16px;
 }
 
-.work-container, .about-container {
+.work-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 100px;
@@ -105,6 +105,10 @@ a {
     width: 250px;
 }
 
+.about-card, .work-card {
+    max-width: 1fr;
+}
+
 .contact {
     text-align: center;
 }
@@ -113,4 +117,21 @@ a {
     font-size: 36px;
     text-align: center;
     color: black;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-width: 320px;
+    margin: 32px auto;
 }

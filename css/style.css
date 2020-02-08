@@ -91,7 +91,7 @@ a {
     margin-left: 16px;
 }
 
-.work-container {
+.work-container, .about-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 100px;
@@ -103,15 +103,6 @@ a {
 .work-card img, .about-card img{
     height: 250px;
     width: 250px;
-}
-
-.about-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 100px;
-    justify-items: center;
-    justify-content: space-around;
-    margin-bottom: 10%;
 }
 
 .contact {

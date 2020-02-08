@@ -12,7 +12,7 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 8vh;
-    background: #0B486B;
+    background: #6A60FF;
     padding: 0 16px;
 }
 
@@ -81,8 +81,8 @@ a {
     border-radius: 7px;
 }
 
-.btn.btn-black {
-    background-color: black;
+.btn.btn-purple {
+    background-color: #6A60FF;
     border-radius: 7px;
     margin-left: 16px;
 }

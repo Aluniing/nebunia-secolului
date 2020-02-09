@@ -11,7 +11,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
+    height: 80px;
     background: #6A60FF;
     padding: 0 16px;
 }
@@ -39,7 +39,7 @@ a {
     background: url(../img/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 8vh);
+    height: calc(100vh - 80px);
     margin-bottom: 10%;
 }
 
